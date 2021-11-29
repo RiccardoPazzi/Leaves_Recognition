@@ -16,9 +16,9 @@ We tried many different solutions, which are summarized in the following table (
 | MK XXIX    | Transfer learning of EfficientNetB7, previous data augmentation is used, input pictures are 256x256 rgb and it is also used the data oversampling | 89%   |
 | MK XXIX FT | Fine tuning of EfficientNetB7                                                                                                                     | 92%   |
 
+Example of the MK_XVI model which includes Batch Normalization after each convolutional layer and dropout in the dense part.
 <img src="https://user-images.githubusercontent.com/62057461/143869086-8d706e10-321a-42c7-aa8e-436bbfeaf242.png" align="center" height="500" width="1000" >
 
-Example of the MK_XVI model which includes Batch Normalization after each convolutional layer and dropout in the dense part. 
 
 In the coolvisuals and augmentation .py files extra visualizations can be found (confusion matrix, visualization of augmentations)
 The dataset can be found at: https://data.mendeley.com/datasets/tywbtsjrjv/1
