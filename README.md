@@ -1,7 +1,7 @@
-# Competition: Plant classification
-## 🎯 The competition task was to create a CNN to identify plants from leaves, in the report document a summary of the whole process can be found
-## 📈 We had a local training set and a private online test set for evaluation our final mean accuracy was 92.6%
-## 🧰 Tools and library used: Python, tensorflow, matplotlib
+# Plant classification network
+### 🎯 The competition task was to create a CNN to identify plants from leaves, in the report document a summary of the whole process can be found
+### 📈 We had a local training set and a private online test set for evaluation our final mean accuracy was 92.6%
+### 🧰 Tools and library used: Python, tensorflow, matplotlib
 
 The team was composed of three students: Myself, Gianluca Ruberto and Tommaso Brumani. 
 We tried many different solutions, which are summarized in the following table (also inside the Report.pdf), the final version we uploaded can be found in the notebook, it uses transfer learning from EfficientNetB7 and fine tuning along with a variety of augmentation techniques and oversampling to compensate for the dataset imbalance.
