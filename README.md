@@ -17,7 +17,8 @@ We tried many different solutions, which are summarized in the following table (
 | MK XXIX FT | Fine tuning of EfficientNetB7                                                                                                                     | 92%   |
 
 Example of the MK_XVI model which includes Batch Normalization after each convolutional layer and dropout in the dense part.
-<img src="https://user-images.githubusercontent.com/62057461/143869086-8d706e10-321a-42c7-aa8e-436bbfeaf242.png" align="center" height="500" width="1000" >
+<p align="center"><img src="https://user-images.githubusercontent.com/62057461/143869086-8d706e10-321a-42c7-aa8e-436bbfeaf242.png" align="center" height="500" width="750">
+</p>
 
 
 In the coolvisuals and augmentation .py files extra visualizations can be found (confusion matrix, visualization of augmentations)
